@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624" at "2026-11-04T16:06:36.3728121Z"
 OS: 'Windows 11  (10.0.26200) Education' Language: 'en' Physical Memory: 32477 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624" at "2026-10-21T15:27:58.6672336Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-21T15:27:58Z
+Date: 2026-11-04T16:06:36Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21668, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2a1f6e576a7e4c1288c753af397da604
+  Correlation Id:          3eec28be16bd3a70d7a93135f2f5ec18
+  External correlation Id: 3379935836590406409
+  Machine Id:              X/ci821Y8SMuFMv0ruqQpWvJHZI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-A00329624" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624-notifications" at "2026-11-04T16:06:36.4326593Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.3.23f1\Editor\Unity.exe
@@ -19,11 +30,11 @@ C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52099
+49412
 -parentPid
-11500
+16132
 -analyticsCloudUserId
-5773821408263
+anonymous
 -analyticsLocalProjectId
 ea3eab795403249a0a31ef57a6948c02
 -editorAnalyticsEnabled
@@ -80,25 +91,14 @@ C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [15960]  Target information:
+Player connection [11868]  Target information:
 
-Player connection [15960]  * "[IP] 192.168.222.239 [Port] 0 [Flags] 2 [Guid] 1897052361 [EditorId] 1897052361 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11868]  * "[IP] 192.168.222.239 [Port] 0 [Flags] 2 [Guid] 76585969 [EditorId] 76585969 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15960] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15960] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11868] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11868] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17596, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              0862206498aa4224960d1f32827a696e
-  Correlation Id:          1b875aec5b5b0acc53d957512f20f348
-  External correlation Id: 1908033923328690635
-  Machine Id:              X/ci821Y8SMuFMv0ruqQpWvJHZI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-A00329624" (connect: 0.00s, validation: 0.00s, handshake: 0.19s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624-notifications" at "2026-10-21T15:27:58.8563065Z"
-[Licensing::Module] Licensing Background thread has ended after 0.19s
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -108,8 +108,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 798.56 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.12 ms.
+Refreshing native plugins compatible for Editor in 30.33 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
 Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.3.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project/Assets
@@ -124,12 +124,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002912 seconds.
-- Loaded All Assemblies, in  1.897 seconds
+Registered in 0.002250 seconds.
+- Loaded All Assemblies, in  0.527 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -137,35 +137,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 2444ms
-	BeginReloadAssembly (405ms)
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1085ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (352ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1047ms)
-		LoadAssemblies (399ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1043ms)
-			TypeCache.Refresh (1040ms)
-				TypeCache.ScanAssembly (686ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (231ms)
+				TypeCache.ScanAssembly (214ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (553ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (562ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (479ms)
+		SetupLoadedEditorAssemblies (495ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -185,13 +185,13 @@ Domain Reload Profiling: 2444ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.520 seconds
-Refreshing native plugins compatible for Editor in 14.89 ms, found 12 plugins.
+- Loaded All Assemblies, in  1.269 seconds
+Refreshing native plugins compatible for Editor in 16.26 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 14.35 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 19.21 ms, found 12 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -223,154 +223,45 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.960 seconds
-Domain Reload Profiling: 4469ms
-	BeginReloadAssembly (256ms)
+- Finished resetting the current domain, in  1.592 seconds
+Domain Reload Profiling: 2852ms
+	BeginReloadAssembly (300ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (2129ms)
-		LoadAssemblies (1854ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (839ms)
+		LoadAssemblies (514ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (427ms)
-			TypeCache.Refresh (313ms)
-				TypeCache.ScanAssembly (289ms)
-			BuildScriptInfoCaches (98ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1961ms)
+		AnalyzeDomain (477ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (297ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1593ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (865ms)
+		SetupLoadedEditorAssemblies (1286ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (216ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (339ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 16.02 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.81 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 6592 unused Assets / (4.3 MB). Loaded Objects now: 7432.
-Memory consumption went from 165.2 MB to 160.9 MB.
-Total: 14.161000 ms (FindLiveObjects: 1.110000 ms CreateObjectMapping: 1.771900 ms MarkObjects: 7.162900 ms  DeleteObjects: 4.115100 ms)
+Unloading 6592 unused Assets / (4.5 MB). Loaded Objects now: 7433.
+Memory consumption went from 162.1 MB to 157.6 MB.
+Total: 13.370300 ms (FindLiveObjects: 1.010800 ms CreateObjectMapping: 1.434100 ms MarkObjects: 7.144300 ms  DeleteObjects: 3.779700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 524310.891682 seconds.
-  path: Assets/_Course Library/Materials/Solid Colors/RedGlow.mat
-  artifactKey: Guid(cb26f7e030d2caf42816d1e99c2b8dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Solid Colors/RedGlow.mat using Guid(cb26f7e030d2caf42816d1e99c2b8dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Curl error 23: Failure writing output to destination, passed 293 returned 0
- -> (artifact id: '78a6628167af17e70283fbebca9918e7') in 0.496014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/_Course Library/Materials/Solid Colors/Orange.mat
-  artifactKey: Guid(a4b38064cb4316748914ac9f56485649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Solid Colors/Orange.mat using Guid(a4b38064cb4316748914ac9f56485649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '575373a2477ea582709e1705d5aceda0') in 0.021159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.244422 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRInteractionSimulator/UI/Controller/ControllerLeft.png
-  artifactKey: Guid(0865850a3ad58456a88bbd9a574129fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRInteractionSimulator/UI/Controller/ControllerLeft.png using Guid(0865850a3ad58456a88bbd9a574129fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02fcbe6ddd63ad38cb4099b7c9fd4361') in 0.0366656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/UI/Controller/ControllerRight.png
-  artifactKey: Guid(17c263f6077f14b218b13656aacd9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/UI/Controller/ControllerRight.png using Guid(17c263f6077f14b218b13656aacd9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf2279be09c80134922cf9e0eaf14967') in 0.0234815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.220971 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.1.3/Starter Assets/DemoSceneAssets/Sprites/Forward.png
-  artifactKey: Guid(f8ecc54972abacc46a93f671b0602139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.1.3/Starter Assets/DemoSceneAssets/Sprites/Forward.png using Guid(f8ecc54972abacc46a93f671b0602139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03aaf43a23fccb0c24f5f870bd917eda') in 0.0191738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.305745 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/UI/Hands/Hand_Fist.png
-  artifactKey: Guid(a6e9e9736379c164e81fdfd2c806a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/UI/Hands/Hand_Fist.png using Guid(a6e9e9736379c164e81fdfd2c806a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152ac0da3e0a2434c9527950f6042e2e') in 0.0206108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.292714 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRInteractionSimulator/UI/Hands/Hands.png
-  artifactKey: Guid(51dbca003875e4a13a6aa29047489e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRInteractionSimulator/UI/Hands/Hands.png using Guid(51dbca003875e4a13a6aa29047489e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d7123ae5b63c191ee2095242f9b7b54') in 0.0196262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.902749 seconds.
-  path: Assets/_Course Library/Source Files/Models/Container_WateringCan_B.fbx
-  artifactKey: Guid(57d79a47c06580e469a00c13bcfb1cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Container_WateringCan_B.fbx using Guid(57d79a47c06580e469a00c13bcfb1cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '417af54c10ca0202ddda3806b92cb395') in 0.0618677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.760500 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.1.3/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx
-  artifactKey: Guid(e3493855a112e8248a2ea2c9828a51a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.1.3/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx using Guid(e3493855a112e8248a2ea2c9828a51a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5070630e6351ced5f76785e735013bf4') in 0.1796078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 235.698705 seconds.
-  path: Assets/_Course Library/Source Files/Models/Container_Bottle.fbx
-  artifactKey: Guid(a35cbf325c0587f4e81a3f266986c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Container_Bottle.fbx using Guid(a35cbf325c0587f4e81a3f266986c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '073c8ec67f678ec1ddb17ab8dbfe6fb2') in 0.0404684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/_Course Library/Source Files/Models/Chair_Traditional_B.fbx
-  artifactKey: Guid(c85425214953d3e458c75798dc76fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Chair_Traditional_B.fbx using Guid(c85425214953d3e458c75798dc76fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '468deab3c430751d3b9d9e0fc22cd7a7') in 0.0269102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/_Course Library/Source Files/Models/Container_WateringCan_C.fbx
-  artifactKey: Guid(73c4a3d8ff1d32744a4419c968edd5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Container_WateringCan_C.fbx using Guid(73c4a3d8ff1d32744a4419c968edd5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74de0f79a98fc12c38b0c4564a2f31cb') in 0.0260771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Course Library/Source Files/Models/Container_Bottle_B.fbx
-  artifactKey: Guid(560afe0b99a30a44994e43c073219897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Container_Bottle_B.fbx using Guid(560afe0b99a30a44994e43c073219897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34e3386b48245277110970de7bae90a8') in 0.0368825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
