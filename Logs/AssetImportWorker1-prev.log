@@ -1,22 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624" at "2026-11-04T16:06:36.3728121Z"
 OS: 'Windows 11  (10.0.26200) Education' Language: 'en' Physical Memory: 32477 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624" at "2026-11-05T14:03:35.1561925Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-04T16:06:36Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21668, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              2a1f6e576a7e4c1288c753af397da604
-  Correlation Id:          3eec28be16bd3a70d7a93135f2f5ec18
-  External correlation Id: 3379935836590406409
-  Machine Id:              X/ci821Y8SMuFMv0ruqQpWvJHZI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-A00329624" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624-notifications" at "2026-11-04T16:06:36.4326593Z"
-[Licensing::Module] Licensing Background thread has ended after 0.06s
+Date: 2026-11-05T14:03:35Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.3.23f1\Editor\Unity.exe
@@ -26,15 +15,15 @@ C:\Program Files\Unity 6000.3.23f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project
+C:/Users/A00329624/Documents/VR_Tutorials
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49412
+59023
 -parentPid
-16132
+4784
 -analyticsCloudUserId
-anonymous
+5773821408263
 -analyticsLocalProjectId
 ea3eab795403249a0a31ef57a6948c02
 -editorAnalyticsEnabled
@@ -53,8 +42,8 @@ LicenseClient-A00329624
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project
-C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project
+Successfully changed project path to: C:/Users/A00329624/Documents/VR_Tutorials
+C:/Users/A00329624/Documents/VR_Tutorials
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -91,13 +80,24 @@ C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [11868]  Target information:
+Player connection [15840]  Target information:
 
-Player connection [11868]  * "[IP] 192.168.222.239 [Port] 0 [Flags] 2 [Guid] 76585969 [EditorId] 76585969 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15840]  * "[IP] 192.168.222.239 [Port] 0 [Flags] 2 [Guid] 1049549670 [EditorId] 1049549670 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-PC13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11868] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11868] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15840] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1088, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              eda88456d6b149c891ba53200e76ad5f
+  Correlation Id:          4a74aedd6b9094fcd23c8885fc38d0fe
+  External correlation Id: 1754023195945702413
+  Machine Id:              X/ci821Y8SMuFMv0ruqQpWvJHZI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-A00329624" (connect: 0.00s, validation: 0.00s, handshake: 0.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-A00329624-notifications" at "2026-11-05T14:03:35.3291051Z"
+[Licensing::Module] Licensing Background thread has ended after 0.17s
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -108,11 +108,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 30.33 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.84 ms.
+Refreshing native plugins compatible for Editor in 791.55 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.10 ms.
 Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/A00329624/Downloads/Create-with-VR-U6_20260729_021619/VR Room Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/A00329624/Documents/VR_Tutorials/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -124,12 +124,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002250 seconds.
-- Loaded All Assemblies, in  0.527 seconds
+Registered in 0.002116 seconds.
+- Loaded All Assemblies, in  1.874 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -137,35 +137,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.561 seconds
-Domain Reload Profiling: 1085ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 2495ms
+	BeginReloadAssembly (359ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (236ms)
-		LoadAssemblies (156ms)
+	RebuildCommonClasses (346ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1071ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (1067ms)
+			TypeCache.Refresh (1064ms)
+				TypeCache.ScanAssembly (724ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (562ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (626ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
+		SetupLoadedEditorAssemblies (559ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (66ms)
+			InitializePlatformSupportModulesInManaged (70ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (205ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -185,13 +185,13 @@ Domain Reload Profiling: 1085ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.269 seconds
-Refreshing native plugins compatible for Editor in 16.26 ms, found 12 plugins.
+- Loaded All Assemblies, in  2.481 seconds
+Refreshing native plugins compatible for Editor in 14.08 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 19.21 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 15.62 ms, found 12 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -223,45 +223,121 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.592 seconds
-Domain Reload Profiling: 2852ms
-	BeginReloadAssembly (300ms)
+- Finished resetting the current domain, in  2.097 seconds
+Domain Reload Profiling: 4564ms
+	BeginReloadAssembly (224ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (55ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (839ms)
-		LoadAssemblies (514ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (2134ms)
+		LoadAssemblies (1816ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (477ms)
-			TypeCache.Refresh (327ms)
-				TypeCache.ScanAssembly (297ms)
-			BuildScriptInfoCaches (125ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1593ms)
+		AnalyzeDomain (447ms)
+			TypeCache.Refresh (346ms)
+				TypeCache.ScanAssembly (319ms)
+			BuildScriptInfoCaches (84ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2098ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1286ms)
+		SetupLoadedEditorAssemblies (929ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (201ms)
-			ProcessInitializeOnLoadAttributes (727ms)
-			ProcessInitializeOnLoadMethodAttributes (339ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 11.81 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 18.25 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 6592 unused Assets / (4.5 MB). Loaded Objects now: 7433.
-Memory consumption went from 162.1 MB to 157.6 MB.
-Total: 13.370300 ms (FindLiveObjects: 1.010800 ms CreateObjectMapping: 1.434100 ms MarkObjects: 7.144300 ms  DeleteObjects: 3.779700 ms)
+Unloading 6592 unused Assets / (4.3 MB). Loaded Objects now: 7433.
+Memory consumption went from 168.0 MB to 163.7 MB.
+Total: 17.250800 ms (FindLiveObjects: 1.596400 ms CreateObjectMapping: 2.249900 ms MarkObjects: 9.549500 ms  DeleteObjects: 3.853300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 164195.572399 seconds.
+  path: Assets/_Course Library/Audio/Music/Music_Classical_Beethoven_Moonlight-Sonata.ogg
+  artifactKey: Guid(17e53586d00594414b8cb9c4bf7cfd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Audio/Music/Music_Classical_Beethoven_Moonlight-Sonata.ogg using Guid(17e53586d00594414b8cb9c4bf7cfd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ddb0f13c6bb9ae998f2477a2612381') in 0.3179466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Course Library/Audio/Music/Music_Classical_Bach_Goldberg-Variations.ogg
+  artifactKey: Guid(1378d79df88a34b6caeb0271791f3baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Audio/Music/Music_Classical_Bach_Goldberg-Variations.ogg using Guid(1378d79df88a34b6caeb0271791f3baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b8a735877534b53a03800833ae73f7f') in 0.1505113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.580386 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Camera_Photograph.prefab
+  artifactKey: Guid(3dabf4d9563cdc0468cf785661c2ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Camera_Photograph.prefab using Guid(3dabf4d9563cdc0468cf785661c2ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b78922a0d3491f24c146d74dc129b343') in 0.5823619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Blue.prefab
+  artifactKey: Guid(f91e2960a3aa55e469f93bf615efa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Blue.prefab using Guid(f91e2960a3aa55e469f93bf615efa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6f40bc2bfee7e98cbf7b3bfdd7bf9e6') in 0.0455119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Purple.prefab
+  artifactKey: Guid(4be497e6e26d5f545ae737c2136c7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Purple.prefab using Guid(4be497e6e26d5f545ae737c2136c7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b703ac8481ed287fba3913a965611b75') in 0.0343593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_White.prefab
+  artifactKey: Guid(259faca514815e44ca78b3f03cad51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_White.prefab using Guid(259faca514815e44ca78b3f03cad51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2538302a4a7e578d26025b03c065f53b') in 0.0327741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Black.prefab
+  artifactKey: Guid(278cd79b6d0575544a70c9035c7a440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Black.prefab using Guid(278cd79b6d0575544a70c9035c7a440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c48544872658e0cbb8a880942350b9b') in 0.0326868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_White.prefab
+  artifactKey: Guid(c38a24daa20a8604f94580629bfdbd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_White.prefab using Guid(c38a24daa20a8604f94580629bfdbd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad835daba6679a980358f2738c4411c9') in 0.0350935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Remote.prefab
+  artifactKey: Guid(ea01289ad12c363458e3a12b1e6afdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Remote.prefab using Guid(ea01289ad12c363458e3a12b1e6afdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd573aab1470fbc3790effc894954d31a') in 0.0364095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
