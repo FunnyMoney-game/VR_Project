@@ -385,7 +385,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 1
+      displayed: 0
       id: Services/AI
       index: 5
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -427,8 +427,8 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__top
-      displayed: 1
-      id: Editor Controls/Layout
+      displayed: 0
+      id: Editor Utility/Quality
       index: 1
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
@@ -441,8 +441,8 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__top
-      displayed: 0
-      id: Editor Utility/Quality
+      displayed: 1
+      id: Editor Controls/Layout
       index: 2
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
@@ -528,20 +528,6 @@ MonoBehaviour:
       displayed: 1
       id: Play Mode Controls
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":909.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
-      floating: 0
-      collapsed: 0
-      snapOffset: {x: 909, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverridden: 0
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      displayed: 1
-      id: Editor Controls/Selection History
-      index: 8
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1190,7 +1176,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -0.461065, y: -0.10177183, z: -1.4534335}
     speed: 2
-    m_Value: {x: 7.127139, y: -35.597294, z: 8.415442}
+    m_Value: {x: -0.461065, y: -0.10177183, z: -1.4534335}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1238,11 +1224,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.004848736, y: 0.9231233, z: -0.38431877, w: 0.011642101}
     speed: 2
-    m_Value: {x: 0.5333966, y: 0.33432624, z: -0.24146658, w: 0.7385277}
+    m_Value: {x: 0.004848736, y: 0.92312336, z: -0.3843188, w: 0.011642101}
   m_Size:
     m_Target: 1.6890244
     speed: 2
-    m_Value: 41.439644
+    m_Value: 1.6890244
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1347,26 +1333,7 @@ MonoBehaviour:
     - m_Data: 52824
     m_LastClickedID:
       m_Data: 52824
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 55850
-    - m_Data: 55852
-    - m_Data: 55854
-    - m_Data: 55856
-    - m_Data: 55858
-    - m_Data: 55860
-    - m_Data: 55862
-    - m_Data: 55864
-    - m_Data: 55866
-    - m_Data: 55868
-    - m_Data: 55870
-    - m_Data: 55872
-    - m_Data: 55874
-    - m_Data: 55876
-    - m_Data: 55878
-    - m_Data: 55880
-    - m_Data: 55882
-    - m_Data: 55884
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1397,26 +1364,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 55850
-    - m_Data: 55852
-    - m_Data: 55854
-    - m_Data: 55856
-    - m_Data: 55858
-    - m_Data: 55860
-    - m_Data: 55862
-    - m_Data: 55864
-    - m_Data: 55866
-    - m_Data: 55868
-    - m_Data: 55870
-    - m_Data: 55872
-    - m_Data: 55874
-    - m_Data: 55876
-    - m_Data: 55878
-    - m_Data: 55880
-    - m_Data: 55882
-    - m_Data: 55884
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
