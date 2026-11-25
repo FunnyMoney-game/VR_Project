@@ -12,6 +12,7 @@ TagManager:
   - Flame
   - Trail
   - ball
+  - Goal
   layers:
   - Default
   - TransparentFX
